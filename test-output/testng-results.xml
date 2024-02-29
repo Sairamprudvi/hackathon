@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-28T15:32:26 IST" name="Suite" finished-at="2024-02-28T15:33:09 IST" duration-ms="42806">
+    <groups>
+      <group name="regression">
+        <method signature="Testcase2.state()[pri:2, instance:testclasses.Testcase2@70ed52de]" name="state" class="testclasses.Testcase2"/>
+        <method signature="Testcase3.signup()[pri:2, instance:testclasses.Testcase3@496bc455]" name="signup" class="testclasses.Testcase3"/>
+        <method signature="Testcase1.brand()[pri:3, instance:testclasses.Testcase1@7d9d0818]" name="brand" class="testclasses.Testcase1"/>
+        <method signature="Testcase2.popularcars()[pri:3, instance:testclasses.Testcase2@70ed52de]" name="popularcars" class="testclasses.Testcase2"/>
+        <method signature="Testcase3.loginPageDetails()[pri:3, instance:testclasses.Testcase3@496bc455]" name="loginPageDetails" class="testclasses.Testcase3"/>
+        <method signature="Testcase1.bikes()[pri:4, instance:testclasses.Testcase1@7d9d0818]" name="bikes" class="testclasses.Testcase1"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="Testcase1.newbikes()[pri:1, instance:testclasses.Testcase1@7d9d0818]" name="newbikes" class="testclasses.Testcase1"/>
+        <method signature="Testcase2.usedcars()[pri:1, instance:testclasses.Testcase2@70ed52de]" name="usedcars" class="testclasses.Testcase2"/>
+        <method signature="Testcase3.login()[pri:1, instance:testclasses.Testcase3@496bc455]" name="login" class="testclasses.Testcase3"/>
+        <method signature="Testcase1.upcomingbikes()[pri:2, instance:testclasses.Testcase1@7d9d0818]" name="upcomingbikes" class="testclasses.Testcase1"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-02-28T15:32:26 IST" name="Test" finished-at="2024-02-28T15:33:09 IST" duration-ms="42806">
+      <class name="testclasses.Testcase1">
+        <test-method is-config="true" signature="driverSetUp(java.lang.String)[pri:0, instance:testclasses.Testcase1@7d9d0818]" started-at="2024-02-28T15:32:27 IST" name="driverSetUp" finished-at="2024-02-28T15:32:34 IST" duration-ms="7530" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- driverSetUp -->
+        <test-method signature="newbikes()[pri:1, instance:testclasses.Testcase1@7d9d0818]" started-at="2024-02-28T15:32:34 IST" name="newbikes" finished-at="2024-02-28T15:32:35 IST" duration-ms="727" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newbikes -->
+        <test-method signature="upcomingbikes()[pri:2, instance:testclasses.Testcase1@7d9d0818]" started-at="2024-02-28T15:32:36 IST" name="upcomingbikes" finished-at="2024-02-28T15:32:39 IST" duration-ms="3622" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- upcomingbikes -->
+        <test-method signature="brand()[pri:3, instance:testclasses.Testcase1@7d9d0818]" started-at="2024-02-28T15:32:40 IST" name="brand" finished-at="2024-02-28T15:32:41 IST" duration-ms="1604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- brand -->
+        <test-method signature="bikes()[pri:4, instance:testclasses.Testcase1@7d9d0818]" started-at="2024-02-28T15:32:42 IST" name="bikes" finished-at="2024-02-28T15:32:49 IST" duration-ms="7458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bikes -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:testclasses.Testcase1@7d9d0818]" started-at="2024-02-28T15:33:07 IST" name="exit" finished-at="2024-02-28T15:33:09 IST" duration-ms="2165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- testclasses.Testcase1 -->
+      <class name="testclasses.Testcase2">
+        <test-method signature="usedcars()[pri:1, instance:testclasses.Testcase2@70ed52de]" started-at="2024-02-28T15:32:50 IST" name="usedcars" finished-at="2024-02-28T15:32:50 IST" duration-ms="151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usedcars -->
+        <test-method signature="state()[pri:2, instance:testclasses.Testcase2@70ed52de]" started-at="2024-02-28T15:32:50 IST" name="state" finished-at="2024-02-28T15:32:54 IST" duration-ms="3978" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- state -->
+        <test-method signature="popularcars()[pri:3, instance:testclasses.Testcase2@70ed52de]" started-at="2024-02-28T15:32:54 IST" name="popularcars" finished-at="2024-02-28T15:32:57 IST" duration-ms="2382" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- popularcars -->
+      </class> <!-- testclasses.Testcase2 -->
+      <class name="testclasses.Testcase3">
+        <test-method signature="login()[pri:1, instance:testclasses.Testcase3@496bc455]" started-at="2024-02-28T15:32:58 IST" name="login" finished-at="2024-02-28T15:32:59 IST" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="signup()[pri:2, instance:testclasses.Testcase3@496bc455]" started-at="2024-02-28T15:33:00 IST" name="signup" finished-at="2024-02-28T15:33:00 IST" duration-ms="279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signup -->
+        <test-method signature="loginPageDetails()[pri:3, instance:testclasses.Testcase3@496bc455]" started-at="2024-02-28T15:33:01 IST" name="loginPageDetails" finished-at="2024-02-28T15:33:07 IST" duration-ms="5663" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageDetails -->
+      </class> <!-- testclasses.Testcase3 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

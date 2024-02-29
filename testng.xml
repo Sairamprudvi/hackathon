@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+<listeners>
+	<listener class-name="utilities.ExtentReportsManager"/>
+</listeners>
+  <test thread-count="5" name="Test">
+  <parameter name="browser" value="chrome"></parameter>
+  <groups>
+<run>
+<include name="smoke"></include>
+<include name="sanity"></include>
+<include name="regression"></include>
+</run>
+</groups>
+    <classes>
+      <class name="testclasses.Testcase1"/>
+      <class name="testclasses.Testcase2"/>
+      <class name="testclasses.Testcase3"/>
+    </classes>
+  </test> <!-- Test -->
+ <!--   <test thread-count="5" name="EdgeTest">
+   <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="testclasses.Testcase1"/>
+      <class name="testclasses.Testcase2"/>
+      <class name="testclasses.Testcase3"/>
+    </classes>
+  </test>--> <!-- Test -->
+</suite> <!-- Suite -->
